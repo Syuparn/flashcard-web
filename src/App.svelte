@@ -3,6 +3,7 @@
 	import Card from "./Card.svelte";
 	import Button from "./Button.svelte";
 	import Header from "./Header.svelte";
+	import DropZone from "./DropZone.svelte";
 
 	let wordIndex = 0;
 	function nextCard() {
@@ -26,6 +27,7 @@
 	  frontWord={$words[wordIndex].frontWord}
 	  backWord={$words[wordIndex].backWord}>
 	</Card>
+	<DropZone></DropZone>
 </main>
 
 <style>
