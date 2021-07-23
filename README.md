@@ -1,6 +1,8 @@
 # flashcard-web
 online flashcard app written in Svelte
 
+<img src="./docs/usage.gif" width="600">
+
 # Try
 
 This app is powered by GitHub Pages.
