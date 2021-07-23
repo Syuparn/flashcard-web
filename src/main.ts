@@ -2,14 +2,7 @@ import App from './App.svelte';
 
 const app = new App({
 	target: document.body,
-	props: {
-		words: [
-			{
-				frontWord: "hello",
-				backWord: "こんにちは"
-			}
-		]
-	}
+	props: {}
 });
 
 export default app;

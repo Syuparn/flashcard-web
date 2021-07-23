@@ -14,7 +14,6 @@
 
 <style>
     button {
-		text-transform: uppercase;
 		font-size: 6em;
 		font-weight: 100;
         border-width: 0.03em;

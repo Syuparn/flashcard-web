@@ -1,4 +1,4 @@
-import { writable } from 'svelte/store';
+import { writable, derived } from 'svelte/store';
 
 export const words = writable([
   {
@@ -10,3 +10,8 @@ export const words = writable([
     backWord: "りんご"
   }
 ]);
+
+export const wordsLength = derived(
+  words,
+  $words => $words.length
+);
