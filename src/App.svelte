@@ -1,10 +1,10 @@
 <script lang="ts">
+	import { words } from './words.js';
 	import Card from "./Card.svelte";
-	export let words: {frontWord: string, backWord: string}[];
 </script>
 
 <main>
-	<Card frontWord={words[0].frontWord} backWord={words[0].backWord}></Card>
+	<Card frontWord={$words[0].frontWord} backWord={$words[0].backWord}></Card>
 </main>
 
 <style>
